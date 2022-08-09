@@ -5,7 +5,7 @@ import IconButton from "./IconButton";
 const { height, width } = Dimensions.get("window")
 
 const Card = ({ item }) => {
-
+  console.log("rereder");
   let scaleValue = new Animated.Value(0);
   const cardScale = scaleValue.interpolate({
     inputRange: [0, 0.5, 1],
@@ -15,19 +15,19 @@ const Card = ({ item }) => {
   return (
     <TouchableWithoutFeedback
       onPressIn={() => {
-        scaleValue.setValue(0);
+        // scaleValue.setValue(0);
         Animated.timing(scaleValue, {
-          toValue: 1,
-          duration: 250,
-          easing: Easing.linear,
-          useNativeDriver: true
+          toValue: 1, // update the animated value to
+          duration: 250, // how long the animation will take in milliseconds
+          easing: Easing.linear, // easing function to use (https://facebook.github.io/react-native/docs/easing.html)
+          useNativeDriver: true // delegate all the animation related work to the native layer
         }).start();
 
       }}
       onPressOut={() => {
         Animated.timing(scaleValue, {
-          toValue: 0,
-          duration: 100,
+          toValue: 0, // reset the animated value to 0
+          duration: 100, // animate over 100ms
           easing: Easing.linear,
           useNativeDriver: true
         }).start();

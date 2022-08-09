@@ -6,7 +6,7 @@ import Card from "./Card";
 const CardList = () => {
     // console.log(listPokemon.pokemon_data);
     return (
-        <View>
+        <View style={{flex: 1, }}>
             <FlatList
                 data={listPokemon}
                 keyExtractor={(item, index) => item.id}
@@ -16,7 +16,7 @@ const CardList = () => {
                     return <Card item={item} />}
                 }
                 style={styles.flatlistPokemons}
-                // ListFooterComponent={<View />}
+                ListFooterComponent={<View style={{paddingBottom: 100}} />}
             />
         </View>
     )
@@ -24,8 +24,8 @@ const CardList = () => {
 
 const styles = StyleSheet.create({
     flatlistPokemons: {
-        paddingBottom: 200,
-        backgroundColor: 'green'
+        flex: 1,
+        backgroundColor: '#f5daeb'
     }
 })
 
