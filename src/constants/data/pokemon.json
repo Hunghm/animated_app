@@ -1,0 +1,76 @@
+{
+    "pokemon_data": [
+        {
+            "id": 1,
+            "name": "Bulbasaur",
+            "pic": "../img/bulbasaur.png",
+            "full_pic": "../img/bulbasaur.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Weepinbell",
+            "pic": "../img/weepinbell.png",
+            "full_pic": "../img/weepinbell.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Pikachu",
+            "pic": "../img/pikachu.png",
+            "full_pic": "../img/pikachu.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Charmander",
+            "pic": "../img/charmander.png",
+            "full_pic": "../img/charmander.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Squirtle",
+            "pic": "../img/squirtle.png",
+            "full_pic": "../img/squirtle.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Meowth",
+            "pic": "../img/meowth.png",
+            "full_pic": "../img/meowth.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Bulbasaur",
+            "pic": "../img/bulbasaur.png",
+            "full_pic": "../img/bulbasaur.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Weepinbell",
+            "pic": "../img/weepinbell.png",
+            "full_pic": "../img/weepinbell.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Pikachu",
+            "pic": "../img/pikachu.png",
+            "full_pic": "../img/pikachu.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Charmander",
+            "pic": "../img/charmander.png",
+            "full_pic": "../img/charmander.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Squirtle",
+            "pic": "../img/squirtle.png",
+            "full_pic": "../img/squirtle.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Meowth",
+            "pic": "../img/meowth.png",
+            "full_pic": "../img/meowth.jpg"
+        }
+    ]
+}
